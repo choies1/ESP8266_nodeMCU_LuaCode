@@ -13,9 +13,26 @@ Followings are my board and firmware settings.
 
 ![WeMoS D1 Pin Map](./00_ReadMe/WeMoS_D1_Pin_Map.png)
 
-### ESP8266 & NodeMCU(Lua) Pin Map
+### ESP8266 & NodeMCU IO Map
 
 ![ESP8266 & Lua Pin Map](./00_ReadMe/ESP8266_Lua_Pin_Map.png)
+
+### Summary: WeMos D1 Board, ESP8266 & NodeMCU IO Map Map
+
+| WeMos D1 Pin     | Function          | ESP8266 Pin | NodeMCU |
+| ------- |:-------------------------:| -----:|-----:|
+| D0      | Rx (Serial)                 | GPIO3  | 9 |
+| D1      | Tx (Serial)                 | GPIO1  | 10 |
+| D2      | GPIO                        | GPIO16 | 0 |
+| D3(D15) | GPIO, SCL                   | GPIO5  | 1 |
+| D4(D14) | GPIO, SDA                   | GPIO4  | 2 |
+| D5(D13) | GPIO, SCK                   | GPIO14 | 5 |
+| D6(D12) | GPIO, MISO                  | GPIO12 | 6 |
+| D7(D11) | GPIO, MOSI                  | GPIO13 | 7 |
+| D8      | GPIO, Pull-up               | GPIO0  | 3 |
+| D9      | GPIO, Pull-up, Built-in LED | GPIO2  | 4 |
+| D10     | GPIO, Pull-down, SS         | GPIO15 | 8 |
+| A0      | Analog Input                | A0     | . |
 
 ## 3. Firmware
 ### Download 1
