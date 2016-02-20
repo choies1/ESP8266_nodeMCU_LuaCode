@@ -1,3 +1,6 @@
+--[[
+Searching WiFi near ESP8266 board
+--]]
 
 wifi.setmode(wifi.STATION)
 
