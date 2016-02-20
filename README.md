@@ -23,7 +23,7 @@ Followings are my board and firmware settings.
 [NodeMCU Firwware](https://github.com/nodemcu/nodemcu-firmware/releases)
 - Baudrate: 9600bps
 
-### Dowload 2
+### Download 2
 - Online build in [http://nodemcu-build.com/](http://nodemcu-build.com)
 - You can select modules and receive it from e-mail.
 
